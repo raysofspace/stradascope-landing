@@ -31,7 +31,7 @@ const scrollToContact = () => {
 
 <style scoped>
 .hero {
-  background-image: url("~/assets/images/hero-bg.png");
+  background-image: url("~/assets/images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
 }
