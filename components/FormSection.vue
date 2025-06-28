@@ -9,11 +9,16 @@
         improve safety, and make data-driven decisions. Schedule a live,
         no-obligation demo with one of our specialists today.
       </p>
-      <form name="demo" netlify class="font-mono max-w-lg mx-auto flex flex-col gap-8">
+      <form
+        name="demo"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        class="font-mono max-w-lg mx-auto flex flex-col gap-8"
+      >
+        <input type="hidden" name="form-name" value="demo" />
         <div>
-          <label for="email" class="block text-slate-900"
-            >Your Name</label
-          >
+          <label for="email" class="block text-slate-900">Your Name</label>
           <div class="mt-2">
             <input
               type="text"
@@ -39,15 +44,13 @@
           </div>
         </div>
         <div>
-          <label
-            for="location"
-            class="block text-slate-900"
+          <label for="location" class="block text-slate-900"
             >What type of organization do you represent?</label
           >
           <div class="mt-2 grid grid-cols-1">
             <select
-              id="location"
-              name="location"
+              id="organization"
+              name="organization"
               class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pr-8 pl-3 text-slate-900 outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-slate-900"
             >
               <option>Public Agency or Department</option>
