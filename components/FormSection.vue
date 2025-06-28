@@ -12,6 +12,7 @@
       <form
         name="demo"
         method="post"
+        action="/demo"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         class="font-mono max-w-lg mx-auto flex flex-col gap-8"
