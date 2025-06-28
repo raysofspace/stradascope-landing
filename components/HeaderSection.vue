@@ -11,7 +11,7 @@
         />
         <div class="font-mono text-xl text-white">StradaScope</div>
       </NuxtLink>
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-4 hidden sm:flex">
         <button
           @click="scrollToContact"
           class="bg-emerald-500 opacity-90 text-white px-4 sm:px-8 py-2 font-mono rounded-2xl mx-auto my-auto hover:opacity-100 transition-opacity duration-300"

@@ -2,7 +2,7 @@
   <div
     class="hero bg-slate-900 text-slate-100 flex items-center mx-auto px-8 min-h-screen min-w-screen"
   >
-    <div class="max-w-screen-lg mx-auto">
+    <div class="max-w-screen-lg mx-auto py-24 sm:py-0">
       <h1 class="font-sans font-medium text-3xl sm:text-4xl lg:text-5xl text-center pb-20">
         Transforming Road Maintenance: From Reactive Repairs to Proactive Asset
         Management.

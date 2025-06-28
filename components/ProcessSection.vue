@@ -4,7 +4,7 @@
       <h1 class="font-sans font-medium text-3xl text-center pb-8">
         From Pavement to Platform in Three Steps
       </h1>
-      <p class="font-mono text-center text-xl pb-16">
+      <p class="font-mono text-left sm:text-center text-xl pb-16">
         Our process is designed for maximum coverage and accuracy with minimum
         overhead.
       </p>

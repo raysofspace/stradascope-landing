@@ -4,7 +4,7 @@
         <h1 class="font-sans font-medium text-3xl text-center pb-8">
           The StradaScope Advantage
         </h1>
-        <p class="font-mono text-center text-xl pb-16">
+        <p class="font-mono text-left sm:text-center text-xl pb-16">
           Unlock significant, tangible benefits for your municipality.
         </p>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">

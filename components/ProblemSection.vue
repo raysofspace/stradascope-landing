@@ -4,7 +4,7 @@
       <h1 class="font-sans font-medium text-3xl text-center pb-8">
         Are Outdated Inspections Costing Your City?
       </h1>
-      <p class="font-mono text-center text-xl pb-16">
+      <p class="font-mono text-left sm:text-center text-xl pb-16">
         Traditional methods are inefficient, costly, and fail to provide a clear
         picture of your infrastructure's true condition.
       </p>
