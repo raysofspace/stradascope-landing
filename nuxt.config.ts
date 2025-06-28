@@ -39,7 +39,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://courageous-marzipan-ad0b7e.netlify.app/",
+    url: "https://stradascope.com/",
     name: "StradaScope",
   },
   ogImage: {
