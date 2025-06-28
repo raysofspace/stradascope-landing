@@ -9,7 +9,7 @@
         improve safety, and make data-driven decisions. Schedule a live,
         no-obligation demo with one of our specialists today.
       </p>
-      <form class="font-mono max-w-lg mx-auto flex flex-col gap-8">
+      <form name="demo" data-netlify="true" class="font-mono max-w-lg mx-auto flex flex-col gap-8">
         <div>
           <label for="email" class="block text-slate-900"
             >Your Name</label
