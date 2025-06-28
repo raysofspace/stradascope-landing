@@ -1,10 +1,7 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2025-05-15',
+  compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/tailwindcss',
-  ],
+  modules: ["@nuxtjs/google-fonts", "@nuxtjs/tailwindcss"],
   googleFonts: {
     families: {
       Montserrat: [500],
@@ -16,14 +13,29 @@ export default defineNuxtConfig({
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Montserrat', 'sans-serif'],
-            mono: ['Inconsolata', 'monospace'],
+            sans: ["Montserrat", "sans-serif"],
+            mono: ["Inconsolata", "monospace"],
           },
         },
       },
-      // plugins: [
-      //   require('@tailwindcss/forms'),
-      // ],
+    },
+  },
+  app: {
+    head: {
+      link: [
+        { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "96x96",
+          href: "/favicon-96x96.png",
+        },
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/favicon.svg",
+        },
+      ],
     },
   },
 });
