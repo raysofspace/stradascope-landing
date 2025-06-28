@@ -4,7 +4,7 @@
       <div class="flex flex-col lg:flex-row items-center gap-24">
         <div class="flex-shrink-0">
           <img
-            src="~/assets/images/stradascope-logo-lg.png"
+            src="/stradascope-logo-lg.png"
             alt="StradaScope Logo"
             class="w-full max-w-xs mx-auto h-auto"
           />
@@ -22,7 +22,7 @@
             existing workflow.
           </p>
           <img
-            src="~/assets/images/stradascope-technologies.png"
+            src="/stradascope-technologies.png"
             alt="StradaScope Technologies"
             class="w-[80%]"
           />

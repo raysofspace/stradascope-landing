@@ -11,7 +11,7 @@
           </p>
         </div>
         <div>
-          <img src="~/assets/images/stradascope-idea.png" alt="StradaScope Idea" />
+          <img src="/stradascope-idea.png" alt="StradaScope Idea" />
         </div>
       </div>
     </div>

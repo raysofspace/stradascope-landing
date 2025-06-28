@@ -8,7 +8,7 @@
             The StradaScope dashboard is your command center for road network intelligence. Powerful for analysts, intuitive for daily operations.
         </p>
         <div class="lg:px-16">
-          <img src="~/assets/images/stradascope-dashboard.png" alt="StradaScope Dashboard" />
+          <img src="/stradascope-dashboard.png" alt="StradaScope Dashboard" />
         </div>
       </div>
     </div>

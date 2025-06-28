@@ -5,7 +5,7 @@
     <div class="max-w-screen-lg mx-auto my-auto px-8 flex justify-between">
       <NuxtLink class="flex items-center gap-4 py-4" to="/">
         <img
-          src="~/assets/images/stradascope-logo-lg.png"
+          src="/stradascope-logo-lg.png"
           alt="StradaScope Logo"
           class="h-10"
         />

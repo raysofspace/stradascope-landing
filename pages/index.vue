@@ -13,3 +13,7 @@
     <FooterSection />
   </div>
 </template>
+
+<script setup>
+defineOgImageComponent("StradaScope");
+</script>
